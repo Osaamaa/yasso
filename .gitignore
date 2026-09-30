@@ -1,0 +1,10 @@
+# The complete website, including its preserved media, lives in site/.
+# Keep duplicate source uploads and local authoring outputs off GitHub.
+/WhatsApp Image *.jpeg
+/WhatsApp Video *.mp4
+/*.zip
+/tools/
+/verification/
+/.vercel/
+/site/.vercel/
+**/__pycache__/

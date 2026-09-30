@@ -1,0 +1,5 @@
+# Deploy the finished gift and its hosting configuration only.
+/*
+!/site/
+!/site/**
+!/vercel.json
