@@ -1,0 +1,17 @@
+Universe Pixel — original font artwork
+
+The bitmap letterforms in Universe Pixel were drawn specifically for Yasso's
+Gaming Universe. They are original project artwork, not copied from an existing
+font, game, brand, or third-party font collection.
+
+The letterforms, generated universe-pixel.ttf, and reproducible generator
+tools/create_pixel_font.py are dedicated to the public domain under the
+CC0 1.0 Universal dedication:
+https://creativecommons.org/publicdomain/zero/1.0/
+
+You may use, modify, embed, copy, and redistribute them for any purpose.
+They are provided without warranty.
+
+No third-party font or font-generation library is used. The generator uses only
+the Python standard library. The website serves the completed font locally and
+has no external font service, request, or runtime dependency.

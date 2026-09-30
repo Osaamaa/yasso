@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 220" fill="none" role="img" aria-labelledby="title">
+  <title id="title">A blue flying game bus</title>
+  <defs><linearGradient id="balloon" x1="135" y1="15" x2="230" y2="104" gradientUnits="userSpaceOnUse"><stop stop-color="#AC9DFF"/><stop offset="1" stop-color="#5B51BD"/></linearGradient></defs>
+  <path d="M62 163H28m31 13H10m58 12H40" stroke="#87C9D9" stroke-width="3" stroke-linecap="square" opacity=".4"/>
+  <path d="m122 71 11 60m90-60-11 66m-57-45 9 43m-68-54 6 70" stroke="#7E839C" stroke-width="3"/>
+  <path d="m105 31 30-18h66l28 19 15 25-7 27-32 19h-70L103 84 91 58Z" fill="url(#balloon)"/>
+  <path d="m135 13-14 37 10 34 23 19h-19L103 84 91 58l14-27Z" fill="#8477D7"/>
+  <path d="m171 13-5 36 3 35 9 19h-24l-23-19-10-34 14-37Z" fill="#B7A6FF"/>
+  <path d="m201 13 15 37-7 34-20 19h16l32-19 7-27-15-25Z" fill="#534BA3"/>
+  <path d="m135 13 66 0 28 19-13 18-50-1-45 1-16-19Z" fill="#CEC0FF" opacity=".28"/>
+  <path d="M109 80h112v5H109Z" fill="#E2D1FF" opacity=".5"/>
+  <path d="m154 102 9 14h25l10-14Z" fill="#444263"/><path d="M164 112h23v13h-23Z" fill="#8E92A5"/>
+  <path d="m91 133 30-16 149 13 27 25-29 18-177-16Z" fill="#80C7E4"/>
+  <path d="m91 133 177 16v44L91 177Z" fill="#3B7CB6"/>
+  <path d="m268 149 29-16 26 20v29l-55 29Z" fill="#315F9C"/>
+  <path d="m270 130 27 3-29 16-177-16 30-16Z" fill="#719AE1"/>
+  <path d="m100 141 162 14v26l-162-14Z" fill="#252F5C"/>
+  <path d="m106 145 24 2v17l-24-2Zm32 3 24 2v17l-24-2Zm32 3 24 2v17l-24-2Zm32 2 24 2v17l-24-2Zm32 3 23 2v17l-23-2Z" fill="#9FE9EB"/>
+  <path d="m106 145 11 1-11 11Zm32 3 12 1-12 12Zm32 3 10 1-10 10Zm32 2 12 1-12 12Zm32 3 11 1-11 11Z" fill="#DDFFF6" opacity=".7"/>
+  <path d="m276 153 21-11 17 14-38 20Z" fill="#AFECEC"/><path d="m297 142 17 14-12 6-14-15Z" fill="#E0FFF3" opacity=".6"/>
+  <path d="m91 171 177 16v9L91 180Z" fill="#B1A3FF"/><path d="m268 187 55-29v9l-55 29Z" fill="#8F7DDD"/>
+  <path d="m106 133 14-8 52 5-14 7Z" fill="#ADBCEF"/><path d="m194 141 13-8 41 4-13 8Z" fill="#A8B6E9"/>
+  <path d="m116 178 11-6 15 1 11 9v14l-11 7-16-1-10-9Z" fill="#182941"/><path d="m127 178 15 1 7 6v11l-7 5-15-1-7-8v-9Z" fill="#2C3F59"/><path d="m130 184 10 1v10l-10-1Z" fill="#99C0CF"/>
+  <path d="m232 188 10-6 14 2 11 8v14l-11 8-16-2-8-10Z" fill="#182941"/><path d="m243 189 13 1 7 7v10l-7 5-13-1-7-8v-9Z" fill="#2C3F59"/><path d="m245 195 10 1v10l-10-1Z" fill="#99C0CF"/>
+  <path d="m279 183 12-6v7l-12 6Zm29-16 11-6v7l-11 6Z" fill="#FFE99A"/>
+  <path d="m286 193 22-12v7l-22 12Z" fill="#1A335B"/>
+  <path d="m85 145 11 1v10l-11-1Z" fill="#9DB2CB"/><path d="m79 145 6-4 11 1-11 4Z" fill="#CBD8E4"/>
+  <path d="m81 157-14-2v9l14 1Z" fill="#FEC95D"/><path d="m66 155-17 0 4 8 13 1Z" fill="#FFEFA9" opacity=".75"/>
+  <path d="M267 59h5v5h5v5h-5v5h-5v-5h-5v-5h5ZM65 105h4v4h4v4h-4v4h-4v-4h-4v-4h4Z" fill="#C6F7E6" opacity=".7"/>
+</svg>

@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 720" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Yasso's floating game world</title>
+  <desc id="desc">An original voxel island with a young engineer in a blue hoodie, a treasure chest, a computer, trees and glowing diamond crystals.</desc>
+  <defs>
+    <linearGradient id="soil" x1="260" y1="386" x2="394" y2="595" gradientUnits="userSpaceOnUse"><stop stop-color="#91603B"/><stop offset="1" stop-color="#3C2B34"/></linearGradient>
+    <linearGradient id="soilDark" x1="645" y1="379" x2="493" y2="594" gradientUnits="userSpaceOnUse"><stop stop-color="#684235"/><stop offset="1" stop-color="#282435"/></linearGradient>
+    <linearGradient id="diamond" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#B5FFF4"/><stop offset=".5" stop-color="#41E7DD"/><stop offset="1" stop-color="#338BE0"/></linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#162C3E"/><stop offset="1" stop-color="#0C192B"/></linearGradient>
+    <radialGradient id="aura"><stop stop-color="#65D9C9" stop-opacity=".15"/><stop offset="1" stop-color="#65D9C9" stop-opacity="0"/></radialGradient>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="5"/></filter>
+    <filter id="softShadow" x="-40%" y="-40%" width="180%" height="200%"><feGaussianBlur stdDeviation="12"/></filter>
+    <g id="grass"><path d="M0 0 15 8 30 0 15-8Z" fill="#8BE36B"/><path d="M0 0v8l15 8V8Z" fill="#53963D"/><path d="m15 8 15-8v8l-15 8Z" fill="#3E7234"/></g>
+    <g id="tinyGrass"><path d="M0 0v-11l6 5v-13l5 5v12l7-3v7Z" fill="#A5F46E"/><path d="m5-3 6 3v-14l-5-5Z" fill="#77CF49"/></g>
+    <g id="star"><path d="M0-7v4h-3v3h-4v3h4v3h3v4h3V6h3V3h4V0H6v-3H3v-4Z" fill="#B8FCEB"/></g>
+    <g id="flower"><path d="M0 0v-12" stroke="#4D9449" stroke-width="3"/><path d="M-5-16h4v-4h5v4h4v5H4v4h-5v-4h-4Z" fill="#FFE77A"/><path d="M-1-16h5v5h-5Z" fill="#ECA345"/></g>
+  </defs>
+
+  <!-- Quiet orbital lines and satellite terrain keep the illustration airy. -->
+  <ellipse cx="459" cy="449" rx="386" ry="203" fill="url(#aura)"/>
+  <path d="M84 385C38 495 219 628 466 634S862 564 838 451" stroke="#56CFDB" stroke-opacity=".18" stroke-width="2" stroke-dasharray="5 11"/>
+  <path d="M110 308C244 209 663 153 824 298" stroke="#9580F6" stroke-opacity=".19" stroke-width="2"/>
+  <path d="m708 117 13-7 13 7-13 7Z" fill="#A698EE"/><path d="m708 117 13 7v15l-13-7Z" fill="#6962A3"/><path d="m721 124 13-7v15l-13 7Z" fill="#4E4682"/>
+  <path d="m146 187 10-5 10 5-10 6Z" fill="#B0FA86"/><path d="m146 187 10 6v11l-10-5Z" fill="#4F9B52"/><path d="m156 193 10-6v12l-10 5Z" fill="#39754A"/>
+  <use href="#star" transform="translate(225 105) scale(.62)" opacity=".8"/>
+  <use href="#star" transform="translate(755 240) scale(.55)" opacity=".65"/>
+  <use href="#star" transform="translate(794 502) scale(.8)" opacity=".65"/>
+  <use href="#star" transform="translate(114 448) scale(.65)" opacity=".6"/>
+  <circle cx="660" cy="113" r="3" fill="#AD9EFC"/><circle cx="173" cy="256" r="3" fill="#57CAD0"/><circle cx="752" cy="583" r="3" fill="#95EE82"/>
+  <path d="m745 380 69-34 59 35-69 35Z" fill="#86D856"/><path d="m745 380 59 36v42l-59-36Z" fill="#795038"/><path d="m804 416 69-35v42l-69 35Z" fill="#4D3532"/><path d="m745 380 59 35 69-34v11l-69 35-59-35Z" fill="#4C9D43"/><path d="m760 414 13 7v13l-13-7Zm18 22 15 8v10l-15-8Z" fill="#A87543"/><path d="m833 412 16-8v10l-16 8Z" fill="#825A3D"/>
+  <use href="#tinyGrass" transform="translate(817 379) scale(.82)"/>
+  <path d="m50 484 68-35 58 33-68 36Z" fill="#77C75B"/><path d="m50 484 58 34v34l-58-33Z" fill="#80583D"/><path d="m108 518 68-36v34l-68 36Z" fill="#513B38"/><path d="m50 484 58 33 68-35v9l-68 35-58-33Z" fill="#4B9544"/><path d="m68 516 15 9v9l-15-9Z" fill="#AD7948"/>
+  <use href="#flower" transform="translate(121 479) scale(.95)"/><use href="#tinyGrass" transform="translate(83 486) scale(.7)"/>
+
+  <!-- One large, faceted island, with a stepped bottom and visible dirt layers. -->
+  <ellipse cx="471" cy="636" rx="207" ry="36" fill="#030B16" opacity=".45" filter="url(#softShadow)"/>
+  <path d="m177 347 323-167 262 155-323 169Z" fill="#74CB52"/>
+  <path d="m177 347 262 157v113l-48-28v-25l-48-29v19l-42-26v-24l-44-26v17l-42-26v-30l-38-22Z" fill="url(#soil)"/>
+  <path d="m439 504 323-169v92l-37 19v22l-48 25v-14l-44 23v30l-42 22v-15l-49 25v26l-55 27Z" fill="url(#soilDark)"/>
+  <path d="m177 347 262 157v30L177 376Z" fill="#519F3E"/>
+  <path d="m439 504 323-169v30L439 534Z" fill="#397E3D"/>
+  <path d="m177 347 262 157 323-169" stroke="#B4EF73" stroke-width="3" stroke-linejoin="round"/>
+  <path d="m439 507 0 107" stroke="#BA8755" stroke-opacity=".32" stroke-width="2"/>
+  <path d="m209 376 29 17v20l-29-17Zm49 31 32 19v26l-32-19Zm50 29 24 15v15l-24-15Zm34 36 29 17v24l-29-18Zm41 16 31 18v17l-31-18Z" fill="#855333"/>
+  <path d="m192 394 29 17v13l-29-17Zm41 34 19 12v13l-19-12Zm40 29 31 18v14l-31-18Zm38 37 25 15v15l-25-15Zm45 18 23 14v15l-23-14Zm38 28 20 12v19l-20-12Z" fill="#AD7745"/>
+  <path d="m231 385 20 12v12l-20-12Zm59 37 23 13v13l-23-13Zm84 49 23 14v14l-23-14Z" fill="#9AC358"/>
+  <path d="m465 507 33-17v21l-33 17Zm54-36 29-15v19l-29 15Zm47-19 25-13v18l-25 13Zm48-33 34-18v23l-34 18Zm68-27 32-17v20l-32 17Z" fill="#467647"/>
+  <path d="m469 544 29-15v16l-29 15Zm44-30 24-12v16l-24 12Zm44 19 29-15v18l-29 15Zm36-57 23-12v15l-23 12Zm40-33 31-16v16l-31 16Zm66-26 26-14v14l-26 14Z" fill="#95603C"/>
+  <path d="m487 576 18-9v15l-18 9Zm39-40 15-8v11l-15 8Zm73-30 18-9v13l-18 9Zm81-66 18-9v11l-18 9Z" fill="#4A3B39"/>
+  <!-- Patches of grass, tiled path and a bright edge. -->
+  <path d="m196 346 62-32 72 42-62 33Z" fill="#87D85B"/><path d="m506 191 76 45-53 27-75-45Z" fill="#8FD860"/>
+  <path d="m606 272 62 36-70 37-62-37Z" fill="#69BA49"/><path d="m322 417 68-36 81 48-68 36Z" fill="#85D75A"/>
+  <path d="m590 408 59-31 42 24-59 31Z" fill="#8DD660"/><path d="m370 296 44-23 39 23-44 23Z" fill="#69B94B"/>
+  <path d="m415 350 38-20 34 20-38 20Z" fill="#B2B185"/><path d="m461 372 38-20 34 20-38 20Z" fill="#C5C296"/><path d="m409 394 38-20 34 20-38 20Z" fill="#B9B58A"/>
+  <path d="m416 353 33 19 38-20v5l-38 20-33-19Z" fill="#829168"/><path d="m462 375 33 19 38-20v5l-38 20-33-19Z" fill="#829168"/><path d="m410 397 33 19 38-20v5l-38 20-33-19Z" fill="#829168"/>
+  <use href="#tinyGrass" transform="translate(306 391)"/><use href="#tinyGrass" transform="translate(694 348)"/><use href="#tinyGrass" transform="translate(493 455) scale(.85)"/>
+  <use href="#tinyGrass" transform="translate(222 341) scale(.72)"/>
+  <use href="#flower" transform="translate(672 353) scale(.9)"/><use href="#flower" transform="translate(522 425) scale(.8)"/>
+  <path d="m547 411 0-11" stroke="#467E42" stroke-width="3"/><path d="M542 390h4v-4h5v4h4v5h-4v4h-5v-4h-4Z" fill="#D8B0F9"/>
+
+  <!-- Two angular trees built as solid, shaded blocks. -->
+  <ellipse cx="300" cy="333" rx="60" ry="22" fill="#306C44" opacity=".35"/>
+  <path d="m286 247 19-10 17 10-19 10Z" fill="#BD8950"/><path d="m286 247 17 10v83l-17-10Z" fill="#946436"/><path d="m303 257 19-10v83l-19 10Z" fill="#604D32"/>
+  <path d="m292 273 7 4v17l-7-4Zm0 38 7 4v15l-7-4Z" fill="#BC8950"/>
+  <path d="m235 200 67-35 62 37-67 35Z" fill="#95E062"/><path d="m235 200 62 37v55l-62-37Z" fill="#55A647"/><path d="m297 237 67-35v55l-67 35Z" fill="#377E42"/>
+  <path d="m254 167 51-27 46 28-51 27Z" fill="#ADEA77"/><path d="m254 167 46 28v41l-46-28Z" fill="#73C652"/><path d="m300 195 51-27v41l-51 27Z" fill="#4F9B45"/>
+  <path d="m272 140 35-18 31 19-35 18Z" fill="#B8F17F"/><path d="m272 140 31 19v27l-31-19Z" fill="#88D35B"/><path d="m303 159 35-18v27l-35 18Z" fill="#59AA4B"/>
+  <path d="m242 217 14 8v14l-14-8Zm30 31 13 8v18l-13-8Zm-9-63 13 8v11l-13-8Z" fill="#8FD25A"/>
+  <path d="m321 239 18-9v12l-18 9Zm15-47 9-5v10l-9 5Z" fill="#67B04C"/>
+  <ellipse cx="639" cy="239" rx="37" ry="13" fill="#36794B" opacity=".35"/>
+  <path d="m630 181 12-7 11 7-12 6Z" fill="#B07B44"/><path d="m630 181 11 6v51l-11-6Z" fill="#94613A"/><path d="m641 187 12-6v51l-12 6Z" fill="#5F4832"/>
+  <path d="m598 145 46-24 40 24-46 24Z" fill="#8BD761"/><path d="m598 145 40 24v38l-40-24Z" fill="#50A353"/><path d="m638 169 46-24v38l-46 24Z" fill="#327D4D"/>
+  <path d="m611 122 34-18 29 18-34 18Z" fill="#A7E878"/><path d="m611 122 29 18v28l-29-18Z" fill="#6DC263"/><path d="m640 140 34-18v28l-34 18Z" fill="#499952"/>
+  <path d="m618 151 11 6v12l-11-6Z" fill="#90DC70"/>
+
+  <!-- A working little coding station. -->
+  <ellipse cx="587" cy="290" rx="49" ry="15" fill="#346F41" opacity=".35"/>
+  <path d="m547 263 48-25 47 28-48 25Z" fill="#B5BAC3"/><path d="m547 263 47 28v13l-47-28Z" fill="#70868A"/><path d="m594 291 48-25v13l-48 25Z" fill="#4D606D"/>
+  <path d="m554 279 8 5v31l-8-5Zm66 4 8-4v24l-8 4Z" fill="#576B70"/>
+  <path d="m562 249 27-14 34 20-27 14Z" fill="#D6DADE"/><path d="m568 249 20-10 25 15-20 10Z" fill="#647589"/>
+  <path d="m562 251 34 20v4l-34-20Z" fill="#9BA9B0"/>
+  <path d="m574 235 17-9 11 7-17 9Z" fill="#546878"/><path d="m584 225 8 5v11l-8-5Z" fill="#6F8090"/>
+  <path d="m554 181 49 29v46l-49-29Z" fill="#3B4563"/><path d="m603 210 8-5v47l-8 4Z" fill="#273448"/><path d="m554 181 8-5 49 29-8 5Z" fill="#748097"/>
+  <path d="m560 192 37 22v32l-37-22Z" fill="url(#screen)"/>
+  <path d="m565 202 7 4m4 3 12 7m-23-6 13 8m-8-1 18 11m-23-10 8 5m4 2 15 9" stroke="#7DEEAC" stroke-width="2.4"/>
+  <path d="m565 202 7 4m-7 4 5 3m0 4 5 3" stroke="#B19AF8" stroke-width="2.4"/>
+  <path d="m583 235 5 3" stroke="#7BDCEB" stroke-width="2"/>
+
+  <!-- The engineer avatar: bespoke block proportions and a cyan hoodie. -->
+  <ellipse cx="463" cy="330" rx="44" ry="16" fill="#246346" opacity=".45"/>
+  <path d="m432 278 22 13v36l-22-13Z" fill="#233755"/><path d="m454 291 18-9v35l-18 10Z" fill="#162A48"/>
+  <path d="m466 270 20 12v32l-20-12Z" fill="#294763"/><path d="m486 282 16-9v32l-16 9Z" fill="#1C2F4B"/>
+  <path d="m425 310 22 13 7 4-13 7-22-13Z" fill="#DBE7DD"/><path d="m419 321 22 13v8l-22-13Z" fill="#A8BABC"/><path d="m441 334 13-7v8l-13 7Z" fill="#6F8792"/>
+  <path d="m461 301 22 13 8 4-14 8-22-13Z" fill="#E3EBE3"/><path d="m455 313 22 13v8l-22-13Z" fill="#B8C9C6"/><path d="m477 326 14-8v8l-14 8Z" fill="#8097A1"/>
+  <path d="m428 209 37-19 40 24-37 19Z" fill="#79E0EE"/><path d="m428 209 40 24v59l-40-24Z" fill="#3296C5"/><path d="m468 233 37-19v59l-37 19Z" fill="#2765A0"/>
+  <path d="m433 257 29 17v12l-29-17Z" fill="#247DB0"/><path d="m439 259 14 8v12l-14-8Z" fill="#54B7D7"/>
+  <path d="m459 232 0 16m-16-24 0 14" stroke="#D4F7EB" stroke-width="3"/>
+  <path d="m474 237 15-8v33l-15 8Z" fill="#337CB2"/>
+  <path d="m427 214 12 7v39l-12-7Z" fill="#58BDDB"/><path d="m413 221 14-7v39l-14 7Z" fill="#3C9ABF"/>
+  <path d="m413 260 14-7 12 7-14 7Z" fill="#FFD6A1"/><path d="m413 260 12 7v15l-12-7Z" fill="#E4A572"/><path d="m425 267 14-7v15l-14 7Z" fill="#C58660"/>
+  <path d="m495 217 14-7 13 8-14 7Z" fill="#67C8E2"/><path d="m508 225 14-7v30l-14 8Z" fill="#285B95"/><path d="m495 217 13 8v31l-13-8Z" fill="#3484B8"/>
+  <path d="m498 249 13-7 14 8-13 7Z" fill="#FFD9A6"/><path d="m498 249 14 8v15l-14-8Z" fill="#D89B6F"/><path d="m512 257 13-7v15l-13 7Z" fill="#BA7D5C"/>
+  <path d="m449 197 19-10 14 8v17l-18 10-15-9Z" fill="#DCA06E"/>
+  <path d="m428 149 37-20 40 24-37 20Z" fill="#343348"/><path d="m428 149 40 24v43l-40-24Z" fill="#F4BF8B"/><path d="m468 173 37-20v43l-37 20Z" fill="#D8956B"/>
+  <path d="m428 149 40 24v15l-11-6v-8l-10-6v9l-10-6v-10l-9-5Z" fill="#282D3C"/><path d="m468 173 37-20v25l-11 6v-11l-12 6v12l-14 8Z" fill="#202738"/>
+  <path d="m428 149 37-20 40 24-37 20Z" fill="#414050"/><path d="m438 150 24-13 27 16-25 13Z" fill="#514C58"/>
+  <path d="m436 178 7 4v7l-7-4Zm17 10 7 4v7l-7-4Z" fill="#263847"/>
+  <path d="m444 198 8 5v4l-8-5Z" fill="#A45E52"/><path d="m499 178 9-5v13l-9 5Z" fill="#EBAF7D"/>
+  <!-- A small tool in hand, without any borrowed game identity. -->
+  <path d="m509 262 3-2 15 25-3 2Z" fill="#8A654A"/><path d="m500 248 9-5 16 10-9 5Z" fill="#C6D8D9"/><path d="m500 248 16 10v8l-16-10Z" fill="#8EA9B6"/><path d="m516 258 9-5v8l-9 5Z" fill="#5F7B8E"/>
+
+  <!-- Heavy wooden loot chest with raised gold straps and a bright clasp. -->
+  <ellipse cx="591" cy="388" rx="68" ry="20" fill="#2D6640" opacity=".42"/>
+  <path d="m535 331 48-25 70 41-48 25Z" fill="#A9743B"/><path d="m535 331 70 41v41l-70-41Z" fill="#875532"/><path d="m605 372 48-25v41l-48 25Z" fill="#62412D"/>
+  <path d="m535 331 0-12 48-25 70 41v12l-48 25Z" fill="#9C6835"/>
+  <path d="m535 319 48-25 70 41-48 25Z" fill="#CD9550"/>
+  <path d="m535 319 70 41v12l-70-41Z" fill="#AB753D"/><path d="m605 360 48-25v12l-48 25Z" fill="#79502E"/>
+  <path d="m543 326 54 31m-54-23 54 31m-54-11 54 31m-54-20 54 31" stroke="#68472D" stroke-width="2"/>
+  <path d="m612 363 33-17m-33 28 33-17m-33 28 33-17m-33 28 33-17" stroke="#453626" stroke-width="2"/>
+  <path d="m546 313 48 28 0 66-9-5v-58l-48-28Z" fill="#EEBB4A"/>
+  <path d="m578 297 48 28v65l-9 5v-65l-48-28Z" fill="#FFE073"/>
+  <path d="m585 345 9 5v57l-9-5Z" fill="#D29B32"/><path d="m617 331 9-5v64l-9 5Z" fill="#B9852C"/>
+  <path d="m552 350 16 10v20l-16-10Z" fill="#FFE47E"/><path d="m556 356 8 5v11l-8-5Z" fill="#A16D2E"/><path d="m559 358 3 2v7l-3-2Z" fill="#472F28"/>
+  <path d="m539 332 62 36" stroke="#F3CB66" stroke-width="2" opacity=".65"/>
+  <path d="m646 346 4-2v6l-4 2Zm-108-12 4 2v6l-4-2Zm0 27 4 2v6l-4-2Zm108 12 4-2v6l-4 2Z" fill="#FFD577"/>
+
+  <!-- Diamond crystals: cool highlights against the warm chest. -->
+  <ellipse cx="363" cy="420" rx="40" ry="12" fill="#2E754D" opacity=".45"/>
+  <path d="m353 410 0-48 17-29 18 36v42l-18 11Z" fill="#51E8D8" fill-opacity=".25" filter="url(#glow)"/>
+  <path d="m352 374 16-31 17 35-17 11Z" fill="#B4FFF0"/><path d="m352 374 16 15v37l-16-15Z" fill="#58D9D4"/><path d="m368 389 17-11v37l-17 11Z" fill="#299DBB"/>
+  <path d="m368 343 0 46 17-11Z" fill="#81F0E0"/>
+  <path d="m329 398 11-22 12 26-12 7Z" fill="#B2F9ED"/><path d="m329 398 11 11v19l-11-8Z" fill="#70DCD9"/><path d="m340 409 12-7v19l-12 7Z" fill="#299FBF"/>
+  <path d="m387 409 10-22 13 26-13 7Z" fill="#B0FFF1"/><path d="m387 409 10 11v13l-10-6Z" fill="#54D9D3"/><path d="m397 420 13-7v13l-13 7Z" fill="#2C9EBA"/>
+  <use href="#star" transform="translate(375 332) scale(.6)"/>
+
+  <!-- Tiny torch, hanging roots, and drifting blocks finish the silhouette. -->
+  <path d="m227 365 9 5v-38l-9-5Z" fill="#825739"/><path d="m236 370 7-4v-38l-7 4Z" fill="#4F3E30"/>
+  <path d="m222 325 12-19 11 18-11 7Z" fill="#FFD878"/><path d="m222 325 12 6v9l-12-7Z" fill="#FFAB45"/><path d="m234 331 11-7v9l-11 7Z" fill="#EA763A"/>
+  <path d="m228 317 6-14 6 14-6 4Z" fill="#FFF0A6"/>
+  <circle cx="234" cy="324" r="13" fill="#FFE696" opacity=".22" filter="url(#glow)"/>
+  <path d="m343 551 0 24 17 10v20" stroke="#34573C" stroke-width="6"/>
+  <path d="m588 555 0 25-13 7v18" stroke="#386045" stroke-width="6"/>
+  <path d="m581 574 17-9v13l-17 9Z" fill="#43754A"/><path d="m334 571 15 9v12l-15-9Z" fill="#4C7E45"/>
+  <path d="m329 621 23-12 22 13-23 12Z" fill="#976B45"/><path d="m329 621 22 13v24l-22-13Z" fill="#654633"/><path d="m351 634 23-12v24l-23 12Z" fill="#453636"/>
+  <path d="m628 585 20-11 19 11-20 11Z" fill="#9BD36E"/><path d="m628 585 19 11v21l-19-11Z" fill="#5C8450"/><path d="m647 596 20-11v21l-20 11Z" fill="#416341"/>
+  <path d="m687 513 12-6 11 6-12 7Z" fill="#A899D8"/><path d="m687 513 11 7v13l-11-7Z" fill="#706298"/><path d="m698 520 12-7v13l-12 7Z" fill="#504872"/>
+  <path d="m464 661 13-7 12 7-13 7Z" fill="#79E4D0"/><path d="m464 661 12 7v13l-12-7Z" fill="#4796A0"/><path d="m476 668 13-7v13l-13 7Z" fill="#316C85"/>
+</svg>
